@@ -1,0 +1,63 @@
+/* 全局样式表 */
+html,
+body, 
+#app {
+    /* 高度占满全屏 */
+    height: 100%;
+    /* margin:外边距 */
+    margin: 0;
+    /* padding: 内边距 */
+    padding: 0;
+    /* 最小屏幕宽度：用于保证权限角色的图标不会移位换行 */
+    /* min-width: 1366px;    */
+}
+
+.el-breadcrumb {
+    /* 为了拉开面包屑和卡片视图区域的距离 */
+    margin-bottom: 15px;
+    /* 字体大小 */
+    font-size: 12px;
+}
+
+.el-card {
+    /* 设置卡片区域的阴影 */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.el-table {
+    /* 与搜索框有间距 */
+    /* 顶部外边距 */
+    margin-top: 15px;
+}
+/* 表头标题样式 */
+.globalHeader {
+    display: block;
+    padding-bottom: 40px;
+    height: 20px;
+    line-height: 20px;
+    
+    font-weight: bold;
+    font-size: 14px;
+
+    border-bottom: 1px solid rgb(194, 192, 192);
+    
+    background-color: #fff;
+    color: #555555;
+}
+/* 表头标题小图标样式 */
+.globalHeader i {
+    margin: 0 5px 0 10px;
+}
+/* layout布局样式 */
+.el-row {
+    margin-bottom: 20px;
+    /* &:last-child {
+      margin-bottom: 0;
+    } */
+    line-height: 40px;
+  }
+
+/* 修改分页样式 */
+.el-pagination {
+  margin-top: 10px;
+}
